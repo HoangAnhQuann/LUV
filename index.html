@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>I LOVE YOU Animation</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap"> <!-- Thêm phông chữ cách điệu -->
+    </head>
+<body>
+    <div class="container">
+        <div class="heart-container">
+            <h1 class="text">
+                <span class="heart-border">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="heart-svg">
+                        <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                    </svg>
+                </span>
+                <span class="love-heart" id="heart">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="heart-svg">
+                        <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                    </svg>
+                </span>
+            </h1>
+            <div class="glow"></div>
+        </div>
+    </div>
+    
+    <!-- Modal for the letter -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close-btn" id="close-btn">&times;</span>
+            <h2>Xin chào em,</h2>
+            <p>Người con gái mà anh đã đem lòng yêu bấy lâu nay. Ngày em bước đến bên anh, cuộc đời anh như được tô thêm rất nhiều màu sắc, những nốt nhạc buồn nay đã trở thành những giai điệu vui ngân nga trong cả quãng đường mà được đi cùng em vậy. Trong thời gian qua anh đã không ít lần vô tâm khiến cho người con gái anh yêu phải buồn nhiều, phải thất vọng nhiều, anh rất xin lỗi vì những điều đó. Anh chỉ hy vọng rằng em sẽ bỏ qua cho anh và tiếp tục bước đi bên anh cho đến khi ta chạm được vạch đính em nhé. Anh yêu em rất nhiều.</p>
+        </div>
+    </div>
+
+    <!-- Audio player -->
+    <audio id="background-music" loop>
+        <source src="NGI CON GI TA THNG  H Anh Tun  Piano Karaoke Tutorial  Sheet PDF  L Trangg .mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
